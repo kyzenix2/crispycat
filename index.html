@@ -1,0 +1,286 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="theme-color" content="#090909" />
+  <meta name="description" content="China's viral AI cat with triangular Dorito ears. 2.2B+ views across Chinese internet. Dorito Ear Cat ($妙脆角猫) on BNB Chain." />
+  <title>Dorito Ear Cat ($妙脆角猫) | BNB</title>
+  <link rel="icon" href="logo.jpg" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+SC:wght@500;700;900&family=Outfit:wght@400;500;600;700&family=Syne:wght@700;800&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            ink: "#090909",
+            dorito: "#ff8a14",
+            cheddar: "#ffc56d"
+          },
+          fontFamily: {
+            sans: ["Outfit", "Noto Sans SC", "sans-serif"],
+            display: ["Syne", "Noto Sans SC", "sans-serif"]
+          }
+        }
+      }
+    };
+  </script>
+</head>
+<body class="font-sans antialiased">
+  <header id="nav" class="nav">
+    <div class="wrap nav-inner">
+      <a class="nav-brand min-w-0" href="#home">
+        <img class="nav-logo" src="logo.jpg" alt="" width="40" height="40" />
+        <span class="brand-name">Dorito Ear Cat</span>
+        <span class="ticker-badge cn" lang="zh-Hans">$妙脆角猫</span>
+      </a>
+      <div class="nav-actions">
+        <nav class="primary-nav" aria-label="Primary">
+          <a class="nav-link" href="#about">About</a>
+          <a class="nav-link" href="#how-to-buy">How to Buy</a>
+          <a class="nav-link" href="#community">Community</a>
+          <a class="nav-link" href="#chart">Chart</a>
+        </nav>
+        <a class="btn btn-primary btn-sm shrink-0" data-buy href="https://pancakeswap.finance/swap?outputCurrency=0x9b6a2c3e00f4baabf2313217f5bfeaae4e5c7a72" target="_blank" rel="noopener noreferrer">Buy Now</a>
+        <button type="button" id="menu-btn" class="menu-btn grid place-items-center lg:hidden" aria-expanded="false" aria-controls="mobile-menu" aria-label="Open menu">
+          <svg class="icon-open" viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true">
+            <path d="M4 7h16M4 12h16M4 17h16" stroke-linecap="round" />
+          </svg>
+          <svg class="icon-close" viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true">
+            <path d="M6 6l12 12M18 6 6 18" stroke-linecap="round" />
+          </svg>
+        </button>
+      </div>
+    </div>
+    <div id="mobile-menu" class="hidden lg:hidden">
+      <nav class="wrap" aria-label="Mobile">
+        <a class="nav-link" href="#about">About</a>
+        <a class="nav-link" href="#how-to-buy">How to Buy</a>
+        <a class="nav-link" href="#community">Community</a>
+        <a class="nav-link" href="#chart">Chart</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero" id="home">
+      <div class="wrap hero-grid">
+        <figure class="hero-media">
+          <img src="banner.jpg" width="1168" height="784" alt="Dorito Ear Cat key art, a tabby with glowing triangular Dorito ears" fetchpriority="high" />
+        </figure>
+        <div class="hero-copy">
+          <div class="logo-wrap">
+            <img class="hero-logo" src="logo.jpg" width="400" height="400" alt="Dorito Ear Cat mascot, a gray tabby face with triangular Dorito ears" />
+          </div>
+          <h1 class="font-display">Dorito Ear Cat</h1>
+          <p class="pair-badge">
+            <span class="pair-ticker cn" lang="zh-Hans">$妙脆角猫</span>
+            <span class="pair-slash" aria-hidden="true">/</span>
+            <span class="pair-chain">BNB</span>
+          </p>
+          <p class="tagline">
+            China’s viral AI cat with triangular Dorito ears.<br />
+            2.2B+ views across Chinese internet.
+          </p>
+          <div class="ca-box">
+            <div class="ca-meta">
+              <span class="ca-label">Contract Address</span>
+              <span class="ca-value" data-ca>0x9b6a2c3e00f4baabf2313217f5bfeaae4e5c7a72</span>
+            </div>
+            <button type="button" class="btn btn-primary btn-copy" data-copy data-label="Copy" data-copy-value="0x9b6a2c3e00f4baabf2313217f5bfeaae4e5c7a72">Copy</button>
+          </div>
+          <div class="hero-actions" id="hero-actions">
+            <a class="btn btn-primary" data-buy href="https://pancakeswap.finance/swap?outputCurrency=0x9b6a2c3e00f4baabf2313217f5bfeaae4e5c7a72" target="_blank" rel="noopener noreferrer">Buy Now</a>
+            <a class="btn btn-icon" data-twitter href="https://x.com/crispycat_X" target="_blank" rel="noopener noreferrer" aria-label="Dorito Ear Cat on X">
+              <svg viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.714-6.231-5.401 6.231H1.744l7.727-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"/></svg>
+            </a>
+          </div>
+          <p class="live-ind"><span class="live-dot" aria-hidden="true"></span><span class="accent">BNB</span>&nbsp;• Live</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="about">
+      <div class="wrap">
+        <div class="section-head">
+          <p class="eyebrow">The story</p>
+          <h2 class="font-display">About</h2>
+          <p class="lede">China’s viral AI cat with triangular Dorito ears. The clip passed 2.2B+ views across Chinese internet under the name <span class="cn" lang="zh-Hans">妙脆角猫</span>. Round face, crispy triangular ears, and a silhouette people already recognize. Same cat, now on BNB Chain.</p>
+        </div>
+        <div class="feature-grid grid gap-4 md:grid-cols-3">
+          <article class="card">
+            <div class="icon-blob" aria-hidden="true">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M2 12s3.5-6 10-6 10 6 10 6-3.5 6-10 6S2 12 2 12z"/><circle cx="12" cy="12" r="2.5"/></svg>
+            </div>
+            <h3>2.2B+ Views</h3>
+            <p>One AI cat clip spread across the Chinese internet and kept getting replayed.</p>
+          </article>
+          <article class="card">
+            <div class="icon-blob" aria-hidden="true">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3.5 21 19.5H3L12 3.5z"/></svg>
+            </div>
+            <h3>Dorito Ears</h3>
+            <p>Triangular ears, crispy corners. The <span class="cn" lang="zh-Hans">妙脆角</span> silhouette is the whole identity.</p>
+          </article>
+          <article class="card">
+            <div class="icon-blob" aria-hidden="true">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20s-7-4.4-7-9a4 4 0 0 1 7-2 4 4 0 0 1 7 2c0 4.6-7 9-7 9z"/></svg>
+            </div>
+            <h3>Cute Heart</h3>
+            <p>A soft face and limitless vibes. People already know this cat before the chart moves.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="how-to-buy">
+      <div class="wrap">
+        <div class="section-head">
+          <p class="eyebrow">BNB Chain</p>
+          <h2 class="font-display">How to Buy</h2>
+          <p class="lede">Four steps on BNB Chain. BNB in, <span class="cn" lang="zh-Hans">妙脆角猫</span> out.</p>
+        </div>
+        <p class="highlight"><strong>You’re on BNB Chain.</strong> Swaps run through PancakeSwap and settle in BNB. Paste the contract, confirm <span class="cn" lang="zh-Hans">妙脆角猫</span>, and swap.</p>
+        <div class="step-grid grid gap-4 sm:grid-cols-2 lg:grid-cols-4">
+          <article class="card step">
+            <span class="step-num">01</span>
+            <h3>Create a wallet</h3>
+            <p>MetaMask, Trust Wallet, or Binance Wallet. Switch the network to BNB Smart Chain.</p>
+          </article>
+          <article class="card step">
+            <span class="step-num">02</span>
+            <h3>Get BNB</h3>
+            <p>Buy BNB and send it to your wallet. Leave a little extra for gas.</p>
+          </article>
+          <article class="card step">
+            <span class="step-num">03</span>
+            <h3>Paste the contract</h3>
+            <p>Open PancakeSwap, connect, and paste the <span class="cn" lang="zh-Hans">妙脆角猫</span> contract.</p>
+          </article>
+          <article class="card step">
+            <span class="step-num">04</span>
+            <h3>Swap BNB</h3>
+            <p>Check the token name, set slippage, and confirm the swap.</p>
+          </article>
+        </div>
+        <div class="action-row">
+          <a class="btn btn-primary" data-buy href="https://pancakeswap.finance/swap?outputCurrency=0x9b6a2c3e00f4baabf2313217f5bfeaae4e5c7a72" target="_blank" rel="noopener noreferrer">Swap on PancakeSwap</a>
+          <a class="btn btn-ghost" href="#chart">View Chart</a>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="community">
+      <div class="wrap">
+        <div class="section-head">
+          <p class="eyebrow">Community</p>
+          <h2 class="font-display">Join Us</h2>
+          <p class="lede">2.2B+ views started in public. Clips, memes, and the contract drop land in the open.</p>
+        </div>
+        <div id="community-cards" class="community-grid">
+          <article class="card community-card">
+            <div class="icon-blob" aria-hidden="true">
+              <svg viewBox="0 0 24 24"><path fill="currentColor" d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.714-6.231-5.401 6.231H1.744l7.727-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"/></svg>
+            </div>
+            <div>
+              <h3>X</h3>
+              <p>Follow the clips, the memes, and the contract drop. <span class="cn" lang="zh-Hans">妙脆角猫</span> posts land here first.</p>
+            </div>
+            <a class="btn btn-primary" data-twitter href="https://x.com/crispycat_X" target="_blank" rel="noopener noreferrer">Follow on X</a>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="chart">
+      <div class="wrap">
+        <div class="section-head">
+          <p class="eyebrow">DexScreener</p>
+          <h2 class="font-display">Live Chart</h2>
+          <p class="lede">Price and trades stream in from DexScreener.</p>
+        </div>
+        <div id="chart-box" class="chart-box">
+          <div class="chart-placeholder">
+            <svg class="spark" viewBox="0 0 640 160" preserveAspectRatio="none" aria-hidden="true">
+              <defs>
+                <linearGradient id="sparkFill" x1="0" x2="0" y1="0" y2="1">
+                  <stop offset="0%" stop-color="#ff8a14" stop-opacity="0.35" />
+                  <stop offset="100%" stop-color="#ff8a14" stop-opacity="0" />
+                </linearGradient>
+              </defs>
+              <path d="M0 120 C40 120 60 80 100 84 S160 40 210 56 S280 130 340 90 S420 20 480 40 S560 100 640 36 V160 H0 Z" fill="url(#sparkFill)" />
+              <path d="M0 120 C40 120 60 80 100 84 S160 40 210 56 S280 130 340 90 S420 20 480 40 S560 100 640 36" fill="none" stroke="#ff8a14" stroke-width="3" />
+            </svg>
+            <div class="chart-copy">
+              <p class="chart-kicker">DexScreener</p>
+              <p class="chart-title">Chart goes live with the contract</p>
+              <p class="chart-note">The DexScreener chart loads with the contract.</p>
+            </div>
+          </div>
+        </div>
+        <p class="chart-open">
+          <a id="chart-link" class="text-link" data-chart href="https://dexscreener.com/bsc/0x9b6a2c3e00f4baabf2313217f5bfeaae4e5c7a72" target="_blank" rel="noopener noreferrer">
+            Open on DexScreener
+            <svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true">
+              <path d="M7 17 17 7M9 7h8v8" stroke-linecap="round" stroke-linejoin="round" />
+            </svg>
+          </a>
+        </p>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="wrap">
+      <div class="footer-grid">
+        <div>
+          <a class="footer-brand" href="#home">
+            <img class="footer-logo" src="logo.jpg" alt="" width="48" height="48" />
+            <span>
+              <strong>Dorito Ear Cat</strong>
+              <em class="cn" lang="zh-Hans">妙脆角猫</em>
+            </span>
+          </a>
+          <p class="footer-tag">Crispy ears. Cute heart. Limitless vibes.</p>
+          <div class="social-row" id="footer-social">
+            <a class="btn btn-icon" data-twitter href="https://x.com/crispycat_X" target="_blank" rel="noopener noreferrer" aria-label="Dorito Ear Cat on X">
+              <svg viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.714-6.231-5.401 6.231H1.744l7.727-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"/></svg>
+            </a>
+          </div>
+        </div>
+        <div>
+          <p class="footer-label">Quick Links</p>
+          <ul class="footer-links">
+            <li><a href="#about">About</a></li>
+            <li><a href="#how-to-buy">How to Buy</a></li>
+            <li><a href="#community">Community</a></li>
+            <li><a href="#chart">Chart</a></li>
+          </ul>
+        </div>
+        <div>
+          <p class="footer-label">Contract</p>
+          <div class="ca-box">
+            <div class="ca-meta">
+              <span class="ca-label">Contract Address</span>
+              <span class="ca-value" data-ca>0x9b6a2c3e00f4baabf2313217f5bfeaae4e5c7a72</span>
+            </div>
+            <button type="button" class="btn btn-primary btn-copy" data-copy data-label="Copy" data-copy-value="0x9b6a2c3e00f4baabf2313217f5bfeaae4e5c7a72">Copy</button>
+          </div>
+        </div>
+      </div>
+      <div class="legal">
+        <p>Dorito Ear Cat (<span class="cn" lang="zh-Hans">$妙脆角猫</span>) is a meme coin on BNB Chain, made for fun. Trading can mean losing what you put in. Nothing here is financial, investment, or legal advice. <span class="cn" lang="zh-Hans">妙脆角</span> and other snack names are cultural references to the cat’s ears.</p>
+        <p>© 2026 Dorito Ear Cat</p>
+      </div>
+    </div>
+  </footer>
+
+  <p id="copy-status" class="sr-only" role="status"></p>
+  <div id="toast" class="toast" role="status" aria-live="polite"></div>
+  <script src="script.js"></script>
+</body>
+</html>
